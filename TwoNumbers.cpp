@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     double A = 0, B = 0;
-    int round, temp;
+    int round = 0, temp = 0;
     cin >> A >> B;
     int floor = A / B;
     int ceil = A != B ? floor + 1 : floor;
