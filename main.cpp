@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    const double PI = 3.141592653;
+    double R = 0;
+    cin >> R;
+    cout << fixed << setprecision(9) << PI * (R * R) << endl;
+    return 0;
+}
