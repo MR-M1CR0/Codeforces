@@ -1,14 +1,15 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
 int main() {
     long long a, b;
     cin >> a >> b;
-    if(((a + b) % 2 == 0 && a == b &&  a > 0)||(a + b) % 2 != 0 && (a == (b+1) || b == (a+1)))
-        cout << "YES";
-    else
+    if(abs(a - b) > 1 || (a == 0  && b == 0))
         cout << "NO";
+    else
+        cout << "YES";
 
    return 0;
 }
