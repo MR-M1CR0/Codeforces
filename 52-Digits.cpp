@@ -14,11 +14,11 @@ int main() {
         else
         {
             while(N > 0)
-        {
+            {
                 D = N % 10;
                 cout << D << " ";
-            N /= 10;
-        }
+                N /= 10;
+            }
             cout << endl;
         }
     }
